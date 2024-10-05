@@ -65,8 +65,8 @@ html {
 /* General Components */
 .container {
   /* 1440px */
-  max-width: 137.6rem;
-  padding: 0 3.2rem;
+  max-width: 128rem;
+  padding: 0 8rem;
   margin: 0 auto;
 }
 
@@ -125,6 +125,10 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 0 8rem;
+  width: 100%;
+
+  position: absolute;
+  z-index: 10;
 }
 
 .panto {
@@ -154,8 +158,16 @@ ul {
 }
 
 /* Hero Section */
+.section-hero {
+  background-image: url(../img/hero-img.webp);
+  background-size: cover;
+  background-position: center;
+  height: 108.4rem;
+}
+
 .hero {
   color: #fff;
+  text-align: center;
 }
 
 .search-bar input[type="search"] {
