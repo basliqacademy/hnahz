@@ -1,123 +1,6 @@
-/* 
---- 01 TYPOGRAPHY SYSTEM
-
-- Font sizes (px):
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Font weights:
-Default: 400
-Medium: 500
-Semi-bold: 600
-Bold: 700
-
-- Line heights:
-Default: 1
-
-- Letter spacing
-
---- 02 COLORS
-
-- Primary: 
-#e58411
-
-- Secondary:
-#F6973F
-
-- Tertiary:
-#F6B76F
-
-- Greys:
-#1E1E1E
-#F7F7F7
-#EEEEEE
-#8D8D8D
-#0D1B39
-#1E2833
-
---- 05 SHADOWS
-
---- 06 BORDER-RADIUS
-
---- 07 WHITE SPACE
-
-- Spacing system(px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #1e1e1e;
-  overflow-x: hidden;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-/* General Components */
-.container {
-  /* 1440px */
-  max-width: 128rem;
-  padding-inline: 8rem;
-  margin-inline: auto;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 700;
-}
-
-h1 {
-  font-size: 8rem;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 4.2rem;
-  line-height: 1.2;
-}
-
-h3 {
-  font-size: 2.4rem;
-  line-height: 1.2;
-}
-
-.subheading {
-  display: block;
-  font-size: 1.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  letter-spacing: 0.75px;
-  color: #e58411;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.more-info {
-  font-size: 1.4rem;
-  color: #e58411;
-}
-
-.view-all {
-  font-size: 1.8rem;
-  color: #e58411;
-}
+@import url(general.css);
+@import url(typography.css);
+@import url(color.css);
 
 /* Header */
 .header {
@@ -132,9 +15,9 @@ ul {
 }
 
 .panto-logo-type {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #fff;
+  font-size: var(--font-size-panto-logo-type);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
 }
 
 .main-nav-list {
@@ -146,15 +29,14 @@ ul {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  font-weight: 500;
-  font-size: 1.8rem;
-  color: #fff;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-main-nav);
+  color: var(--color-white);
 }
 
-.shopping-cart {
-  font-size: 2.4rem;
-  height: 2.4rem;
-  color: #fff;
+.shopping-cart-icon {
+  font-size: var(--font-size-shopping-cart-icon);
+  color: var(--color-white);
 }
 
 /* Hero Section */
@@ -166,8 +48,8 @@ ul {
 }
 
 .hero {
-  color: #fff;
   text-align: center;
+  color: var(--color-white);
 }
 
 .search-bar input[type="search"] {
@@ -176,7 +58,7 @@ ul {
 }
 
 .search-icon {
-  background-color: #e58411;
+  background-color: var(--color-primary);
 }
 
 /* Why Choosing Us Section */
@@ -191,8 +73,8 @@ ul {
 
 /* Footer */
 .footer-heading {
-  font-size: 1.8rem;
-  color: #f6973f;
+  font-size: var(--font-size-footer-heading);
+  color: var(--color-secondary);
 }
 
 .footer-link {
