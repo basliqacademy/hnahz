@@ -1,0 +1,82 @@
+@import url(general.css);
+@import url(typography.css);
+@import url(color.css);
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8rem;
+  width: 100%;
+
+  position: absolute;
+  z-index: 10;
+}
+
+.panto-logo-type {
+  font-size: var(--font-size-panto-logo-type);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-main-nav);
+  color: var(--color-white);
+}
+
+.shopping-cart-icon {
+  font-size: var(--font-size-shopping-cart-icon);
+  color: var(--color-white);
+}
+
+/* Hero Section */
+.section-hero {
+  background-image: url(../img/hero-img.webp);
+  background-size: cover;
+  background-position: center;
+  height: 108.4rem;
+}
+
+.hero {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.search-bar input[type="search"] {
+  font-family: inherit;
+  outline: none;
+}
+
+.search-icon {
+  background-color: var(--color-primary);
+}
+
+/* Why Choosing Us Section */
+
+/* Best Selling Product Section */
+
+/* Experiences Section */
+
+/* Materials Section */
+
+/* Testimonials Section */
+
+/* Footer */
+.footer-heading {
+  font-size: var(--font-size-footer-heading);
+  color: var(--color-secondary);
+}
+
+.footer-link {
+  color: inherit;
+}
