@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 8rem;
+  padding: 3.2rem 8rem;
   width: 100%;
 
   position: absolute;
@@ -26,9 +26,13 @@
   gap: 6.4rem;
 }
 
+.main-nav-list:first-child a {
+  display: flex;
+  gap: 0.8rem;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
-  display: inline-block;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-main-nav);
   color: var(--color-white);
@@ -50,18 +54,97 @@
 .hero {
   text-align: center;
   color: var(--color-white);
+  padding-block: 16rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.4rem;
+}
+
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.hero-text-box h1 {
+  width: 80%;
+}
+
+.hero-description {
+  width: 45%;
+  font-size: var(--font-size-hero-description);
+  line-height: var(--line-height-hero-footer-p);
+  opacity: 0.8;
+}
+
+.search-bar {
+  position: relative;
+  backdrop-filter: blur(0.3rem);
+  border-radius: 4.2rem;
+  width: 32rem;
 }
 
 .search-bar input[type="search"] {
   font-family: inherit;
+  font-size: var(--font-size-search-bar);
+  background-color: var(--color-search-bar-background);
+  opacity: 0.8;
+  padding: 1.6rem 12.8rem 1.6rem 1.6rem;
   outline: none;
+  border: 0.08rem solid var(--color-white);
+  border-radius: 4.2rem;
+}
+
+.search-bar input[type="search"]::placeholder {
+  color: var(--color-white);
 }
 
 .search-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
   background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(55%, -50%);
 }
 
 /* Why Choosing Us Section */
+.section-why-us {
+  padding: 12.8rem 6.2rem;
+}
+
+.why-us {
+  display: grid;
+  grid-template-columns: 28rem auto;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.why-us-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.why-us-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.why-us-item-text {
+  font-size: var(--font-size-why-us-text);
+  line-height: var(--line-height-why-us-text);
+  opacity: 0.8;
+}
 
 /* Best Selling Product Section */
 
