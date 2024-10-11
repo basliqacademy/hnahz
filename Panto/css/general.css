@@ -17,12 +17,6 @@ html {
 }
 
 /* General Components */
-.container {
-  /* 1440px */
-  max-width: 128rem;
-  padding-inline: 8rem;
-  margin-inline: auto;
-}
 
 h1,
 h2,
@@ -62,8 +56,19 @@ ul {
   list-style: none;
 }
 
+.more-info-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 .more-info {
   font-size: var(--font-size-more-info);
+  color: var(--color-primary);
+}
+
+.more-info-arrow {
+  font-size: var(--font-size-more-info-arrow);
   color: var(--color-primary);
 }
 
