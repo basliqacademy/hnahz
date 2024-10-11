@@ -23,17 +23,29 @@
 
   --font-size-panto-logo-type: var(--font-size-8);
 
-  --font-size-h1: var(--font-size-14);
+  --font-size-h1: var(--font-size-13);
   --font-size-h2: var(--font-size-10);
   --font-size-h3: var(--font-size-7);
   --font-size-subheading: var(--font-size-5);
 
-  --font-size-main-nav: var(--font-size-5);
-  --font-size-shopping-cart-icon: var(--font-size-7);
-
+  /*---general components */
   --font-size-more-info: var(--font-size-3);
+  --font-size-more-info-arrow: var(--font-size-5);
   --font-size-view-all: var(--font-size-5);
 
+  /*---header */
+  --font-size-main-nav: var(--font-size-5);
+  --font-size-shopping-cart-icon: var(--font-size-8);
+
+  /*---hero section */
+  --font-size-hero-description: var(--font-size-7);
+  --font-size-search-bar: var(--font-size-5);
+  --font-size-search-icon: var(--font-size-7);
+
+  /*---why choosing us section */
+  --font-size-why-us-text: var(--font-size-4);
+
+  /*---footer */
   --font-size-footer-heading: var(--font-size-5);
 
   /* font weight */
@@ -47,6 +59,10 @@
   --line-height-h1: 1.3;
   --line-height-h2: 1.2;
   --line-height-h3: 1.2;
+
+  --line-height-hero-footer-p: 1.6;
+
+  --line-height-why-us-text: 1.85;
 
   /* letter spacing */
   --letter-spacing-subheading: 0.075rem;
