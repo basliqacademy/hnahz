@@ -14,4 +14,7 @@
   --color-product-details: hsl(221, 63%, 14%);
 
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
+
+  /* opacity */
+  --opacity-high: 0.8;
 }

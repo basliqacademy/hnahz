@@ -79,7 +79,7 @@
   max-inline-size: 60rem;
   font-size: var(--font-size-hero-description);
   line-height: var(--line-height-hero-footer-p);
-  opacity: 0.8;
+  opacity: var(--opacity-high);
 }
 
 .search-bar {
@@ -95,7 +95,7 @@
   background-color: var(--color-search-bar-background);
   color: var(--color-white);
   width: 32rem;
-  opacity: 0.8;
+  opacity: var(--opacity-high);
   padding: 1.6rem 2rem 1.6rem 1.6rem;
   outline: none;
   border: 1px solid var(--color-white);
@@ -145,7 +145,7 @@
 .why-us-item-text {
   font-size: var(--font-size-why-us-text);
   line-height: var(--line-height-why-us-text);
-  opacity: 0.8;
+  opacity: var(--opacity-high);
 }
 
 /* Best Selling Product Section */
