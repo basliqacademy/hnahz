@@ -102,6 +102,10 @@
   border-radius: 4.2rem;
 }
 
+.hero .search-bar-input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
 .hero .search-bar-input::placeholder {
   color: var(--color-white);
 }
@@ -116,6 +120,20 @@
   top: 50%;
   right: 0;
   transform: translate(-25%, -50%);
+}
+
+.close-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-25%, -50%);
+
+  display: none;
 }
 
 /* Why Choosing Us Section */
