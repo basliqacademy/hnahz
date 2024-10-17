@@ -30,8 +30,8 @@
 
   /*---general components */
   --font-size-more-info: var(--font-size-3);
-  --font-size-more-info-arrow: var(--font-size-5);
   --font-size-view-all: var(--font-size-5);
+  --font-size-arrow-icon: var(--font-size-6);
 
   /*---header */
   --font-size-main-nav: var(--font-size-5);

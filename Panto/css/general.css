@@ -68,11 +68,22 @@ ul {
 }
 
 .more-info-arrow {
-  font-size: var(--font-size-more-info-arrow);
+  font-size: var(--font-size-arrow-icon);
   color: var(--color-primary);
+}
+
+.view-all-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .view-all {
   font-size: var(--font-size-view-all);
+  color: var(--color-primary);
+}
+
+.view-all-arrow {
+  font-size: var(--font-size-arrow-icon);
   color: var(--color-primary);
 }
