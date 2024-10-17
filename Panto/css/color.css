@@ -6,10 +6,15 @@
   --color-body: hsl(0, 0%, 12%);
   --color-white: hsl(0, 0%, 100%);
 
+  --color-search-bar-background: hsla(0, 0%, 100%, 0.2);
+
   --color-product-background: hsl(0, 0%, 97%);
   --color-product-nav: hsl(0, 0%, 93%);
   --color-product-category: hsl(0, 0%, 55%);
   --color-product-details: hsl(221, 63%, 14%);
 
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
+
+  /* opacity */
+  --opacity-high: 0.8;
 }

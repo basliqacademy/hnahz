@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 8rem;
+  padding: 3.2rem 8rem;
   width: 100%;
 
   position: absolute;
@@ -26,9 +26,13 @@
   gap: 6.4rem;
 }
 
+.main-nav-list .furniture-icon {
+  display: flex;
+  gap: 0.8rem;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
-  display: inline-block;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-main-nav);
   color: var(--color-white);
@@ -50,18 +54,117 @@
 .hero {
   text-align: center;
   color: var(--color-white);
+  padding-block: 16rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.4rem;
 }
 
-.search-bar input[type="search"] {
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.hero-text-box h1 {
+  max-inline-size: 92rem;
+}
+
+.hero-description {
+  max-inline-size: 60rem;
+  font-size: var(--font-size-hero-description);
+  line-height: var(--line-height-hero-footer-p);
+  opacity: var(--opacity-high);
+}
+
+.search-bar {
+  position: relative;
+  backdrop-filter: blur(0.3rem);
+  border-radius: 4.2rem;
+  width: 32rem;
+}
+
+.hero .search-bar-input {
   font-family: inherit;
+  font-size: var(--font-size-search-bar);
+  background-color: var(--color-search-bar-background);
+  color: var(--color-white);
+  width: 32rem;
+  opacity: var(--opacity-high);
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
   outline: none;
+  border: 1px solid var(--color-white);
+  border-radius: 4.2rem;
+}
+
+.hero .search-bar-input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.hero .search-bar-input::placeholder {
+  color: var(--color-white);
 }
 
 .search-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
   background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-25%, -50%);
+}
+
+.close-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-25%, -50%);
+
+  display: none;
 }
 
 /* Why Choosing Us Section */
+.section-why-us {
+  padding: 12.8rem 6.2rem;
+}
+
+.why-us {
+  display: grid;
+  grid-template-columns: 28rem auto;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.why-us-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.why-us-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.why-us-item-text {
+  font-size: var(--font-size-why-us-text);
+  line-height: var(--line-height-why-us-text);
+  opacity: var(--opacity-high);
+}
 
 /* Best Selling Product Section */
 
