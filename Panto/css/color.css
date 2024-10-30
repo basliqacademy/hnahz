@@ -10,8 +10,9 @@
 
   --color-product-background: hsl(0, 0%, 97%);
   --color-product-nav: hsl(0, 0%, 93%);
-  --color-product-category: hsl(0, 0%, 55%);
-  --color-product-details: hsl(221, 63%, 14%);
+  --color-product-item-category: hsl(0, 0%, 55%);
+  --color-product-item-details: hsl(221, 63%, 14%);
+  --color-product-image-box: hsl(0, 0%, 98%);
 
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
 

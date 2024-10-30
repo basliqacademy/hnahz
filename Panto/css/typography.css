@@ -45,6 +45,16 @@
   /*---why choosing us section */
   --font-size-why-us-text: var(--font-size-4);
 
+  /* ---products section */
+  --font-size-product-nav: var(--font-size-5);
+  --font-size-product-item-category: var(--font-size-4);
+  --font-size-product-item-text: var(--font-size-6);
+  --font-size-product-stars: var(--font-size-5);
+  --font-size-product-dollar-sign: var(--font-size-4);
+  --font-size-product-price: var(--font-size-7);
+  --font-size-product-add: var(--font-size-12);
+  --font-size-product-buttons: var(--font-size-7);
+
   /*---footer */
   --font-size-footer-heading: var(--font-size-5);
 
