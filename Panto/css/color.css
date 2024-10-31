@@ -17,6 +17,7 @@
   --color-experiences-materials-behind-image: var(--color-product-background);
 
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
+  --color-footer-background: var(--color-product-background);
 
   /* opacity */
   --opacity-high: 0.8;

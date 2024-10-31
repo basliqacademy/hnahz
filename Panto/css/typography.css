@@ -66,6 +66,8 @@
 
   /*---footer */
   --font-size-footer-heading: var(--font-size-5);
+  --font-size-footer-text: var(--font-size-4);
+  --font-size-footer-icon: var(--font-size-7);
 
   /* font weight */
   --font-weight-regular: 400;

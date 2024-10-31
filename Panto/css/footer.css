@@ -1,8 +1,69 @@
+footer {
+  width: 100%;
+  background-color: var(--color-footer-background);
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  grid-template-rows: 0.8fr 0.2fr;
+  justify-items: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 12rem 16rem 4.8rem 16rem;
+}
+
+.panto-logo-type.black {
+  color: inherit;
+}
+
+.footer-link {
+  color: inherit;
+}
+
 .footer-heading {
   font-size: var(--font-size-footer-heading);
   color: var(--color-secondary);
 }
 
-.footer-link {
-  color: inherit;
+.footer-text {
+  font-size: var(--font-size-footer-text);
+  line-height: var(--line-height-hero-footer-p);
+}
+
+.nav-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-link.icon {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.footer-link.icon ion-icon {
+  font-size: var(--font-size-footer-icon);
+}
+
+.terms-privacy {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.copyright-terms-privacy {
+  width: 100%;
+  grid-column: span 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  opacity: var(--opacity-medium);
 }
