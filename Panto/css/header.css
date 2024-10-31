@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 8rem;
+  width: 100%;
+
+  position: absolute;
+  z-index: 10;
+}
+
+.panto-logo-type {
+  font-size: var(--font-size-panto-logo-type);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.main-nav-list .furniture-icon {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-main-nav);
+  color: var(--color-white);
+}
+
+.shopping-cart-icon {
+  font-size: var(--font-size-shopping-cart-icon);
+  color: var(--color-white);
+}

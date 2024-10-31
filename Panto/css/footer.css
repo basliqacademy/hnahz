@@ -1,0 +1,8 @@
+.footer-heading {
+  font-size: var(--font-size-footer-heading);
+  color: var(--color-secondary);
+}
+
+.footer-link {
+  color: inherit;
+}
