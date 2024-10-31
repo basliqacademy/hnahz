@@ -55,6 +55,9 @@
   --font-size-product-add: var(--font-size-12);
   --font-size-product-buttons: var(--font-size-7);
 
+  /* ---experiences-materials section */
+  --font-size-experiences-materials-description: var(--font-size-5);
+
   /*---footer */
   --font-size-footer-heading: var(--font-size-5);
 
@@ -70,9 +73,13 @@
   --line-height-h2: 1.2;
   --line-height-h3: 1.2;
 
-  --line-height-hero-footer-p: 1.6;
-
   --line-height-why-us-text: 1.85;
+
+  --line-height-experiences-materials-description: var(
+    --line-height-why-us-text
+  );
+
+  --line-height-hero-footer-p: 1.6;
 
   /* letter spacing */
   --letter-spacing-subheading: 0.075rem;

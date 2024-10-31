@@ -14,6 +14,8 @@
   --color-product-item-details: hsl(221, 63%, 14%);
   --color-product-image-box: hsl(0, 0%, 98%);
 
+  --color-experiences-materials-behind-image: var(--color-product-background);
+
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
 
   /* opacity */
