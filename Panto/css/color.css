@@ -20,4 +20,9 @@
 
   /* opacity */
   --opacity-high: 0.8;
+  --opacity-medium: 0.6;
+  --opacity-low: 0.4;
+
+  /* shadows */
+  --box-shadow-arrow-btn: hsla(210, 8%, 62%, 0.1);
 }

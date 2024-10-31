@@ -58,6 +58,12 @@
   /* ---experiences-materials section */
   --font-size-experiences-materials-description: var(--font-size-5);
 
+  /* ---testimonials section */
+  --font-size-testimonials-client-name: var(--font-size-5);
+  --font-size-testimonials-client-text: var(--font-size-2);
+  --font-size-testimonials-blockquote: var(--font-size-3);
+  --font-size-testimonials-stars: var(--font-size-3);
+
   /*---footer */
   --font-size-footer-heading: var(--font-size-5);
 
