@@ -4,16 +4,13 @@ footer {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   grid-template-rows: 0.8fr 0.2fr;
-  justify-items: center;
+  justify-items: end;
   align-items: center;
   gap: 10rem;
-  padding: 12rem 16rem 4.8rem 16rem;
+  padding: 9.6rem 15.2rem 4.8rem 15.2rem;
 }
 
-.panto-logo-type.black {
-  color: inherit;
-}
-
+.panto-logo-type.black,
 .footer-link {
   color: inherit;
 }

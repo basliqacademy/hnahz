@@ -3,7 +3,7 @@
   align-items: center;
   gap: 14rem;
   padding-inline-end: 14rem;
-  margin-block-start: 30rem;
+  margin-block-start: 19.2rem;
 }
 
 .experiences-text-box,
@@ -18,16 +18,6 @@
   font-size: var(--font-size-experiences-materials-description);
   line-height: var(--line-height-experiences-materials-description);
   opacity: var(--opacity-high);
-}
-
-.materials {
-  display: flex;
-  gap: 9.6rem;
-  padding-inline-start: 8rem;
-  margin-block-start: 27rem;
-  align-items: center;
-
-  position: relative;
 }
 
 .experiences-img-box {
@@ -58,6 +48,16 @@
   z-index: -1;
   top: 64px;
   right: -64px;
+}
+
+.materials {
+  display: flex;
+  gap: 9.6rem;
+  padding-inline-start: 8rem;
+  margin-block-start: 19.2rem;
+  align-items: center;
+
+  position: relative;
 }
 
 .materials-img-box {

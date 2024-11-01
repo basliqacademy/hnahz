@@ -25,5 +25,5 @@
   --opacity-low: 0.4;
 
   /* shadows */
-  --box-shadow-arrow-btn: hsla(210, 8%, 62%, 0.1);
+  --box-shadow-arrow-btn: hsla(210, 8%, 62%, 0.2);
 }
