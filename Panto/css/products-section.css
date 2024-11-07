@@ -14,7 +14,7 @@
 .categories {
   font-size: var(--font-size-product-nav);
   background-color: var(--color-product-nav);
-  border-radius: 48px;
+  border-radius: var(--border-radius-xxl);
   inline-size: 36rem;
   margin: 0 auto 9.6rem auto;
 }
@@ -34,7 +34,7 @@
 .category-chair {
   display: inline-block;
   background-color: var(--color-white);
-  border-radius: 32px;
+  border-radius: var(--border-radius-lg);
   padding: 1.2rem 1.6rem;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .product-image-box {
-  border-radius: 24px 24px 0 0;
+  border-radius: var(--border-radius-md) var(--border-radius-md) 0 0;
   background-color: var(--color-product-image-box);
   block-size: 24rem;
 
@@ -57,12 +57,12 @@
 
 .product-image {
   position: absolute;
-  bottom: 3.2rem;
+  inset-block-end: 3.2rem;
   transform: translate(-50%, 0);
 }
 
 .product-container {
-  border-radius: 0 0 24px 24px;
+  border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
   background-color: var(--color-white);
   display: flex;
   align-items: flex-start;
@@ -128,14 +128,14 @@
 
 .product-items .btn--left {
   box-shadow: var(--box-shadow-arrow-btn) -2px 2px 16px;
-  left: 0;
-  top: 30%;
+  inset-inline-start: 0;
+  inset-block-start: 30%;
   transform: translate(-50%, 0);
 }
 
 .product-items .btn--right {
   box-shadow: var(--box-shadow-arrow-btn) 2px 2px 16px;
-  right: 0;
-  top: 30%;
+  inset-inline-end: 0;
+  inset-block-start: 30%;
   transform: translate(50%, 0);
 }

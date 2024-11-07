@@ -2,7 +2,7 @@
   background-image: url(../img/hero-img.webp);
   background-size: cover;
   background-position: center;
-  height: 108.4rem;
+  padding-block-end: 35rem;
 }
 
 .hero {
@@ -39,8 +39,8 @@
 .search-bar {
   position: relative;
   backdrop-filter: blur(0.3rem);
-  border-radius: 4.2rem;
-  width: 32rem;
+  border-radius: var(--border-radius-lg);
+  inline-size: 32rem;
 }
 
 .hero .search-bar-input {
@@ -48,12 +48,12 @@
   font-size: var(--font-size-search-bar);
   background-color: var(--color-search-bar-background);
   color: var(--color-white);
-  width: 32rem;
+  inline-size: 100%;
   opacity: var(--opacity-high);
   padding: 1.6rem 2rem 1.6rem 1.6rem;
   outline: none;
-  border: 1px solid var(--color-white);
-  border-radius: 4.2rem;
+  border: var(--border);
+  border-radius: var(--border-radius-lg);
 }
 
 .hero .search-bar-input::-webkit-search-cancel-button {
@@ -71,8 +71,8 @@
   color: var(--color-white);
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  right: 0;
+  inset-block-start: 50%;
+  inset-inline-end: 0;
   transform: translate(-25%, -50%);
 }
 
@@ -83,8 +83,8 @@
   color: var(--color-white);
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  right: 0;
+  inset-block-start: 50%;
+  inset-inline-end: 0;
   transform: translate(-25%, -50%);
 
   display: none;

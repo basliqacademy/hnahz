@@ -91,4 +91,15 @@
 
   /* letter spacing */
   --letter-spacing-subheading: 0.075rem;
+
+  /* border radius */
+  --border-radius-xs: 16px;
+  --border-radius-sm: 20px;
+  --border-radius-md: 24px;
+  --border-radius-lg: 32px;
+  --border-radius-xl: 42px;
+  --border-radius-xxl: 48px;
+
+  /* border */
+  --border: 1px solid var(--color-white);
 }
