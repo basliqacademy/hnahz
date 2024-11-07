@@ -87,3 +87,7 @@ ul {
   font-size: var(--font-size-arrow-icon);
   color: var(--color-primary);
 }
+
+.btn-icon {
+  font-size: var(--font-size-product-buttons);
+}
