@@ -1,0 +1,91 @@
+.section-hero {
+  background-image: url(../img/hero-img.webp);
+  background-size: cover;
+  background-position: center;
+  padding-block-end: 35rem;
+}
+
+.hero {
+  text-align: center;
+  color: var(--color-white);
+  padding-block: 16rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.4rem;
+}
+
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.hero-text-box h1 {
+  max-inline-size: 92rem;
+}
+
+.hero-description {
+  max-inline-size: 60rem;
+  font-size: var(--font-size-hero-description);
+  line-height: var(--line-height-hero-footer-p);
+  opacity: var(--opacity-high);
+}
+
+.search-bar {
+  position: relative;
+  backdrop-filter: blur(0.3rem);
+  border-radius: var(--border-radius-lg);
+  inline-size: 32rem;
+}
+
+.hero .search-bar-input {
+  font-family: inherit;
+  font-size: var(--font-size-search-bar);
+  background-color: var(--color-search-bar-background);
+  color: var(--color-white);
+  inline-size: 100%;
+  opacity: var(--opacity-high);
+  padding: 1.6rem 2rem 1.6rem 1.6rem;
+  outline: none;
+  border: var(--border);
+  border-radius: var(--border-radius-lg);
+}
+
+.hero .search-bar-input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.hero .search-bar-input::placeholder {
+  color: var(--color-white);
+}
+
+.search-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-end: 0;
+  transform: translate(-25%, -50%);
+}
+
+.close-icon {
+  padding: 0.8rem;
+  font-size: var(--font-size-search-icon);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-end: 0;
+  transform: translate(-25%, -50%);
+
+  display: none;
+}

@@ -10,11 +10,20 @@
 
   --color-product-background: hsl(0, 0%, 97%);
   --color-product-nav: hsl(0, 0%, 93%);
-  --color-product-category: hsl(0, 0%, 55%);
-  --color-product-details: hsl(221, 63%, 14%);
+  --color-product-item-category: hsl(0, 0%, 55%);
+  --color-product-item-details: hsl(221, 63%, 14%);
+  --color-product-image-box: hsl(0, 0%, 98%);
+
+  --color-experiences-materials-behind-image: var(--color-product-background);
 
   --color-footer-icons-copyright: hsl(211, 26%, 16%);
+  --color-footer-background: var(--color-product-background);
 
   /* opacity */
   --opacity-high: 0.8;
+  --opacity-medium: 0.6;
+  --opacity-low: 0.4;
+
+  /* shadows */
+  --box-shadow-arrow-btn: hsla(210, 8%, 62%, 0.2);
 }

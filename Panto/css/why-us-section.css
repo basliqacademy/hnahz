@@ -1,0 +1,28 @@
+.section-why-us {
+  padding: 12.8rem 6.2rem;
+}
+
+.why-us {
+  display: grid;
+  grid-template-columns: 28rem auto;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.why-us-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.why-us-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.why-us-item-text {
+  font-size: var(--font-size-why-us-text);
+  line-height: var(--line-height-why-us-text);
+  opacity: var(--opacity-high);
+}
